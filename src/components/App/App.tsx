@@ -1,3 +1,4 @@
+import ErrorDisplay from "../ErrorDisplay/ErrorDisplay";
 import SearchForm from "../SearchForm/SearchForm";
 
 function App() {
@@ -10,9 +11,7 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <p className="error text-danger col">
-          Error: I couldn't retrieve anything funny...
-        </p>
+        <ErrorDisplay />
       </div>
     </div>
   );

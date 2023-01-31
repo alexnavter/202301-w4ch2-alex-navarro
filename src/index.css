@@ -9,7 +9,7 @@ body {
 }
 
 .error {
-  display: none;
+  color: red;
 }
 
 .error.on {
